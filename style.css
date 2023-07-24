@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    width: 1972px;
+    height: 1117px;
+    background-color: black;
+}
+
+.dado {
+    text-align: center;
+    margin-top: 156px;
+
+}
+
+p {
+    color: white;
+    width: 299px;
+    height: 20px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 29px;
+
+}
+
+.input {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 342px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.25);
+    margin: 0 30px;
+    padding: 10px 0 10px 10px;
+
+        
+
+
+}
+
+.input::placeholder {
+    padding: 13px 0 30px 16px;
+    font-size: 35px;
+}
+
+.container {
+    margin-top: 126px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    width: 342px;
+    height: 72px;
+    padding: 0px 76px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #AEC346;
+    box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5px;
+    margin: 76px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
